@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqldb": {
+    "name": "mysqldb",
+    "host": "localhost",
+    "database": "lb_test",
+    "username": "root"
+  }
+
+}
