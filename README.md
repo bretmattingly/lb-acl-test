@@ -28,7 +28,7 @@ denied. To do this, let's create an ACL in the Database. It looks something like
 
 ```
 INSERT INTO ACL (model, property, accessType, permission, principalType, principalId)
-VALUES ("document", NULL, "READ", "ALLOW", "USER", 1);
+VALUES ("document", "find", "READ", "ALLOW", "USER", 1);
 ```
 
 Finally, prepare to read security debugging output by setting `DEBUG=loopback:security:*` in your shell.
