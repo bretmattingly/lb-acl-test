@@ -21,7 +21,7 @@
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "RoleMapping": {
@@ -33,7 +33,13 @@
     "public": false
   },
   "document": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "client": {
+    "dataSource": "mysqldb",
     "public": true
   }
 }

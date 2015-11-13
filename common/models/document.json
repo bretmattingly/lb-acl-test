@@ -7,20 +7,21 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "required": true
-    },
     "name": {
       "type": "string",
       "required": true
     },
     "text": {
       "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "required": true,
+      "index": true
     }
   },
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": []
 }

@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "mysqldb": {
-    "name": "mysqldb",
     "host": "localhost",
     "database": "lb_test",
-    "username": "root"
+    "username": "root",
+    "name": "mysqldb",
+    "connector": "mysql"
   }
-
 }
