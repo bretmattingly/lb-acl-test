@@ -1,0 +1,20 @@
+{
+  "client": {
+    "id": 0,
+    "name": "bort",
+    "email": "testytester@testtown.tx",
+    "username": "bort",
+    "password": "testy"
+  },
+  "doc1": {
+    "name": "Tales From Test Town",
+    "text": "And one man's eventual loss of sanity",
+    "id": 0
+  },
+  "doc2": {
+    "name": "Adventures in QA",
+    "text": "ʞlɐʇ I ʍoɥ sᴉ sᴉɥʇ 'ʇuǝɔɔɐ uɐ ǝʌɐɥ ʇ,uop I",
+    "id": 2
+  }
+}
+

@@ -17,19 +17,19 @@
     "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "ACL": {
     "dataSource": "mysqldb",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "document": {
